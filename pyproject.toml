@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proximity3d"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["torch", "numpy", "lightning>=2.5,<3", "tensorboard", "pytorch3d", "tomli>=2; python_version < '3.11'"]
+
+[project.scripts]
+proximity3d-train = "proximity3d.train:main"
+
+[project.optional-dependencies]
+decoder-loss = ["safetensors"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["proximity3d*"]

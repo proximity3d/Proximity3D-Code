@@ -1,0 +1,9 @@
+occupancy_enabled = true
+feature_enabled = true
+decoder_enabled = false
+occupancy_weight = 1.0
+feature_weight = 1.0
+decoder_weight = 0.1
+decoder_resolution = 128
+surface_samples = 2048
+chamfer_chunk_size = 512

@@ -1,0 +1,6 @@
+[components]
+model = "models/proximity3d_384.toml"
+data = "data/data.toml"
+sensor = "sensors/Elbow.toml"
+training = "training/default.toml"
+loss = "loss/reconstruction.toml"

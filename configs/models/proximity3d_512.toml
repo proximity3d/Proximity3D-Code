@@ -1,0 +1,17 @@
+backbone_dim = 512
+decoder_dim = 384
+shape_layers = 6
+shape_output_normalization = false
+decoder_layers = 4
+sensing_dim = 384
+sensing_layers = 2
+attention_heads = 8
+feedforward_dim = 2048
+shape_tokens = 8
+register_tokens = 4
+pose_frequencies = 10
+grid_resolution = 8
+feature_dim = 32
+scan_chunk_size = 512
+dropout = 0.1
+gradient_checkpointing = true

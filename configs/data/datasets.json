@@ -1,0 +1,22 @@
+{
+  "format": "proximity3d.consolidated_dataset",
+  "schema_version": 1,
+  "roots": [
+    {
+      "path": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/objects/GSOu1",
+      "label": "GSOu1"
+    },
+    {
+      "path": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/objects/Manifold40u1",
+      "label": "Manifold40u1"
+    },
+    {
+      "path": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/objects/models",
+      "label": "models"
+    },
+    {
+      "path": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/objects/t10k",
+      "label": "T10K"
+    }
+  ]
+}
