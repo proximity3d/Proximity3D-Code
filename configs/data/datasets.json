@@ -1,22 +1,7 @@
 {
-  "format": "proximity3d.consolidated_dataset",
-  "schema_version": 1,
-  "roots": [
-    {
-      "path": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/objects/GSOu1",
-      "label": "GSOu1"
-    },
-    {
-      "path": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/objects/Manifold40u1",
-      "label": "Manifold40u1"
-    },
-    {
-      "path": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/objects/models",
-      "label": "models"
-    },
-    {
-      "path": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/objects/t10k",
-      "label": "T10K"
-    }
-  ]
+  "responses": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/generated_pt",
+  "target_postures": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/postures",
+  "target_latents": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/shape_latents",
+  "sensor_maps": "/mnt/data-disk-1/home/cpii.local/ckdai/hw/data_generation_outputs/data_all_v1/target_sensor_map",
+  "label": ["GSOu1", "Manifold40u1", "models", "T10K"]
 }

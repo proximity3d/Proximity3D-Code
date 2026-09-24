@@ -5,5 +5,9 @@
 ## ToDo
 
 - [x] Release code
-- [ ] Release data
+- [x] Release dataset
 - [ ] Release tutorial
+
+## Dataset
+
+Download the dataset from [Google Drive](https://drive.google.com/drive/folders/1T0l6BC602K7-7ESiUV8tXe_DzJbeayMq?usp=sharing).
